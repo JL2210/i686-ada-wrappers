@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gnatmake --GCC='@ARCH@-linux-gnu-gnatgcc' --GNATBIND='@ARCH@-linux-gnu-gnatbind' --GNATLINK='@ARCH@-linux-gnu-gnatlink' "$@"

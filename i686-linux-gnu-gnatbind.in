@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gnatbind -aO@LIBDIR@/gcc/`@ARCH@-linux-gnu-gnatgcc -dumpmachine`/`@ARCH@-linux-gnu-gnatgcc -dumpversion`/32/adalib "$@"

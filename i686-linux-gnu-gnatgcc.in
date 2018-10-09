@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gcc -m32 -L@LIBDIR@/gcc/`gcc -dumpmachine`/`gcc -dumpversion`/32/adalib/ "$@"

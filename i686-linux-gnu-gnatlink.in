@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gnatlink --GCC="@ARCH@-linux-gnu-gnatgcc" --LINK="@ARCH@-linux-gnu-gnatgcc" "$@"
